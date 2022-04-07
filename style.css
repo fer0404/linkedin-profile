@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding-left: 0%;
+
+}
+
+html,
+body {
+  --grey: hsl(240, 9%, 89%) 
+
+  height: 100%;
+  font-family: "roboto", sans-serif;
+}
+body {
+  display: grid;
+  place-items: center;
+}
+main{
+  background:url(imagens/backg.svg ) ;
+  width: 375px;
+  height: 500px;
+  color:var(--grey) ;
+}
+.container {
+
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: var(--grey );
+}
+
+.container strong p {
+  padding-top: 15px;
+}
+.avatar{
+  width: 10rem;
+  margin: 5.5rem auto auto ;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+li{
+  display: inline-block;
+  gap: 10rem;
+  justify-content:center ;
+  padding-right: 10px;
+}
+
+ul {
+  padding-top: 15px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  padding-top: 15px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#img-rck {
+  width: 186px;
+  background-color: rgb(0, 242, 255);
+}
